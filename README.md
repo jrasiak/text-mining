@@ -14,7 +14,7 @@ Uzasadnienie: Pandas to potężne narzędzie do manipulacji danymi, które pozwa
 
 b) Usunięcie niepotrzebnych kolumn
 Z danych usunięto kolumny, które nie mają znaczenia dla analizy:
-
+ 
 self.data.drop(columns=['Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4'], inplace=True)
 
 Uzasadnienie: Usunięcie niepotrzebnych kolumn redukuje rozmiar danych i upraszcza analizę, co jest istotne dla utrzymania przejrzystości i efektywności dalszych operacji.
