@@ -88,8 +88,11 @@ Przykładowe wyniki mogą wyglądać następująco (dane wyjściowe zależą od 
            0       0.98      0.99      0.99       145
            1       0.97      0.94      0.96        50
     accuracy                           0.98       195
+    
    macro avg       0.97      0.96      0.97       195
+   
 weighted avg       0.98      0.98      0.98       195
+
 ROC AUC Score: 0.965
 
 Uzasadnienie: Wyniki wskazują na wysoką skuteczność modelu w klasyfikacji wiadomości jako spam lub ham. Wysokie wartości precyzji, recall oraz F1-score świadczą o tym, że model dobrze radzi sobie z obydwoma klasami. Wysoki ROC AUC Score potwierdza, że model ma dobrą zdolność
