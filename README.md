@@ -83,16 +83,13 @@ Raport klasyfikacji: Pokazuje metryki takie jak precyzja, recall, F1-score dla k
 Macierz konfuzji: Pokazuje liczbę poprawnie i niepoprawnie zaklasyfikowanych przykładów dla każdej klasy.
 ROC AUC Score: Pokazuje skuteczność klasyfikatora na podstawie krzywej ROC.
 Przykładowe wyniki mogą wyglądać następująco (dane wyjściowe zależą od konkretnego uruchomienia):
-              precision    recall  f1-score   support
 
+              precision    recall  f1-score   support
            0       0.98      0.99      0.99       145
            1       0.97      0.94      0.96        50
-
     accuracy                           0.98       195
    macro avg       0.97      0.96      0.97       195
 weighted avg       0.98      0.98      0.98       195
-
-[[144   1]
- [  3  47]]
 ROC AUC Score: 0.965
+
 Uzasadnienie: Wyniki wskazują na wysoką skuteczność modelu w klasyfikacji wiadomości jako spam lub ham. Wysokie wartości precyzji, recall oraz F1-score świadczą o tym, że model dobrze radzi sobie z obydwoma klasami. Wysoki ROC AUC Score potwierdza, że model ma dobrą zdolność
