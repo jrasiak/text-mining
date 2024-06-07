@@ -124,14 +124,20 @@ weighted avg       0.98      0.98      0.98       195
 ROC AUC Score: 0.965
 ```
 
-Analiza wyników: 
+ANALIZA WYNIKÓW: 
 
 Precyzja: Wartości 0.98 dla klasy 0 i 0.97 dla klasy 1 oznaczają, że model rzadko popełnia błędy w przewidywaniu obu klas.
+
 Czułość: Wartości 0.99 dla klasy 0 i 0.94 dla klasy 1 pokazują, że model jest bardzo skuteczny w identyfikacji klasy 0, nieco mniej skuteczny w przypadku klasy 1.
+
 F1-Score: Wyniki 0.99 dla klasy 0 i 0.96 dla klasy 1 wskazują na bardzo dobrą wydajność modelu w obu klasach, przy czym klasa 0 jest nieco lepiej obsługiwana.
+
 Dokładność: Dokładność 0.98 oznacza, że 98% wszystkich przewidywań modelu są poprawne. Jest to ogólny wskaźnik wydajności modelu, który uwzględnia zarówno pozytywne, jak i negatywne wyniki.
+
 Macro AVG: Wartości 0.97 dla precyzji, 0.96 dla czułości i 0.97 dla F1-score pokazują, że model ogólnie dobrze sobie radzi w obu klasach, ale klasa 1 jest nieco mniej dokładnie przewidywana niż klasa 0.
+
 Weighted AVG: Wartości 0.98 dla precyzji, 0.98 dla czułości i 0.98 dla F1-score pokazują, że model jest bardzo wydajny ogólnie, z lekkim przeważeniem na korzyść klasy 0 ze względu na większą liczbę przypadków w tej klasie.
+
 ROC AUC Score: Wynik 0.965 wskazuje, że model ma bardzo dobrą zdolność do rozróżniania między klasami.
 
 Uzasadnienie: Wyniki wskazują na wysoką skuteczność modelu w klasyfikacji wiadomości jako spam lub ham. Wysokie wartości precyzji, recall oraz F1-score świadczą o tym, że model dobrze radzi sobie z obydwoma klasami. Wysoki ROC AUC Score potwierdza, że model ma dobrą zdolność
