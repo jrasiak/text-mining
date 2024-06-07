@@ -40,8 +40,7 @@ Tekst został znormalizowany (usunięcie znaków specjalnych, konwersja na małe
 
 Uzasadnienie: Normalizacja i lematyzacja redukują szum w danych tekstowych, co pozwala na bardziej precyzyjną analizę i modelowanie. Usunięcie znaków specjalnych i konwersja na małe litery ujednolicają dane, a lematyzacja pomaga w zredukowaniu liczby różnych form tego samego słowa.
 
-f) Usunięcie duplikatów
-Usunięto duplikaty z danych:
+f)Usunięto duplikaty z danych:
 
 ```self.data = self.data.drop_duplicates(keep='first')```
 
